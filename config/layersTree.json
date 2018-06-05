@@ -1,0 +1,45 @@
+{
+  "layersTree": [
+    {
+      "classification": true,
+      "imageParameters": {
+        "format": "png32"
+      },
+      "url": "https://pkk5.rosreestr.ru/arcgis/rest/services/Cadastre/Cadastre/MapServer",
+      "identification": {
+        "mappings": {
+          "ID": {
+            "value": "Идентификатор ЧЗУ",
+            "coded": false
+          },
+          "PARENT_ID": {
+            "value": "Идентификатор ЕЗП",
+            "coded": false
+          },
+          "REGION_KEY": {
+            "value": "Ключ СФ",
+            "coded": false
+          },
+          "ANNO_TEXT": {
+            "value": "Аннотация",
+            "coded": false
+          },
+          "PROPERTY": {
+            "value": "Вид собственности",
+            "coded": false
+          },
+          "PROHIBIT_TYPE": {
+            "value": "Тип основания для отказа",
+            "coded": false
+          }
+        }
+      },
+      "parent": "ОАС",
+      "visible": false,
+      "visibleLayerIds": [22,36,37,23,24],
+      "id": "Росреестр",
+      "type": "esri/layers/ArcGISDynamicMapServiceLayer"
+    }
+
+  ]
+}
